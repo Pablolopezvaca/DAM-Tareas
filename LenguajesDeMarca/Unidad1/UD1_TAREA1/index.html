@@ -1,0 +1,72 @@
+<!--
+ * 
+ * Nombre: PABLO LOPEZ VACA 
+ * Fecha: 04/10/2024 
+ * Modulo: Lenguaje de Marcas y Sistema de Gestión de la Información. 
+ * UD: UD1 Intercambio de información en la web 
+ * Tarea: Tarea Evaluacion 01. Primer sitio web.
+ * 
+ * Descripcion: crear un sitio web que muestre tu Curriculum Vitae
+ *
+ * Enlace autoevaluacion: 
+ * 
+-->
+
+<!DOCTYPE html>  
+<html lang="es"> 
+    <!-- Configuración del documento -->
+    <head> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Curriculum Vitae de Pablo López Vaca">
+        <title>CURRICULUM VITAE</title>
+        <link rel="icon" href="favicon/file-person.svg" type="image/x-icon">
+    </head>
+
+    <body>
+        <!-- Encabezado de la página -->
+        <header> 
+            <h1>CURRICULUM VITAE</h1>
+            <img src= "img/Foto_Pablo.JPG" alt="Foto de Pablo López Vaca" width="200" height="200">
+        </header> 
+
+        <main>
+
+            <article>
+                <!-- Sección de datos personales -->
+                <h2>Datos personales:</h2>  
+                    <!-- Lista No Ordenada -->
+                    <ul> 
+                        <!-- Elementos de lista -->
+                        <!-- Uso de la etiqueta span -->
+                        <li><span >Nombres: </span>Pablo Isaac</li>
+                        <li><span >Apellidos: </span>López Vaca</li>
+                    </ul>
+                        <address>
+                            <ul>
+                                <li><span >Móvil: </span>660562162</li>
+                                <li><span >E-mail: </span>pablopez@birt.eus</li>
+                                <li><a href="https://www.linkedin.com/in/pablolopezvaca/" target="_blank">Visita mi LinkedIn</a></li>
+                            </ul>
+                        </address>
+                    <ul>    
+                        <li><a href="pdf/CV_PabloLopezVaca_2024.pdf" target="_blank" aria-label="Descargar Curriculum Vitae en PDF">Curriculum Vitae</a></li>
+                    </ul>
+            </article>
+
+            <article>
+                <h2>Conoce más sobre mi:</h2>
+            </article>
+            <!-- Navegación a las páginas de experiencia y aficiones -->
+            <nav> 
+                <ol>
+                    <li><a href="experiencia.html">Experiencia académica y laboral</a></li>
+                    <li><a href="aficiones.html">Aficiones</a></li>
+                </ol>
+            </nav> 
+        </main> 
+        <footer>
+            <p>&copy; 2024 Pablo López Vaca. Todos los derechos reservados.</p>
+        </footer>      
+    </body>
+</html>

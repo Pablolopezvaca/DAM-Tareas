@@ -1,0 +1,165 @@
+<!--
+ * 
+ * Nombre: PABLO LOPEZ VACA 
+ * Fecha: 04/10/2024 
+ * Modulo: Lenguaje de Marcas y Sistema de Gestión de la Información. 
+ * UD: UD1 Intercambio de información en la web 
+ * Tarea: Tarea Evaluacion 01. Primer sitio web.
+ * 
+ * Descripcion: crear un sitio web que muestre tu Curriculum Vitae
+ *
+ * Enlace autoevaluacion: 
+ * 
+-->
+
+<!DOCTYPE html>  
+<html lang="es"> 
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CURRICULUM VITAE - EXPERIENCIA</title>
+        <meta name="description" content="Curriculum Vitae de Pablo López Vaca">
+        <link rel="icon" href="favicon/file-person.svg" type="image/x-icon">
+    </head>
+
+    <body>
+
+        <main>
+            <!-- Sección de experiencia académica -->
+            <section id="experiencia-academica">
+                <header>
+                    <h2>Experiencia Académica:</h1>
+                </header>
+
+                <table>
+                    <!-- Fila de una tabla -->
+                    <thead>
+                        <tr> 
+                        <!-- Encabezado de tabla -->
+                            <th scope="col">Institución Educativa</th> 
+                            <th scope="col">Título</th>
+                            <th scope="col">Año</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <!-- Celda de tabla -->
+                            <td>BIRT LH [Eukadi]</td> 
+                            <td>Desarrollo de Aplicaciones Multiplataforma</td>
+                            <td>En curso</td>
+                        </tr>
+                        <tr>
+                            <td>DEMA - GAIA [Euskadi]</td>
+                            <td>Certificado de profesionalidad "Desarrollo Web"</td>
+                            <td>En curso</td>
+                        </tr>
+                        <tr>
+                            <td>Università degli Studi di Genova [Italia]</td>
+                            <td>Master in Global Rule of Law and Constitutional Democracy</td>
+                            <td>En curso</td>
+                        </tr>
+                        <tr>
+                            <td>Universidad de Salamanca [España]</td>
+                            <td>Especialista en Derecho Administrativo</td>
+                            <td>2019</td>
+                        </tr>
+                        <tr>
+                            <td>Universidad Central del Ecuador [Ecuador]</td>
+                            <td>Master en Ciencias Internacionales</td>
+                            <td>2015</td>
+                        </tr>
+                        <tr>
+                            <td>Universidad Tecnológica Indoamérica [Ecuador]</td>
+                            <td>Abogado</td>
+                            <td>2010</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <!-- Sección de experiencia profesional -->
+
+            <!-- Atributo id pa que sea más facil identificar el section-->
+            <section id="experiencia-laboral">
+                <header> 
+                    <h2>Experiencia Laboral:</h2>
+                </header>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <!-- Atributo scope para mejorar la accesibilidad -->
+                            <th scope="col">Institución/Empresa</th>
+                            <th scope="col">Puesto</th>
+                            <th scope="col">Actividades</th>
+                            <th scope="col">Año</th>
+                        </tr>
+                    </thead>    
+                    <tbody>
+                        <tr>
+                            <td>HSI People in Cloud [Euskadi]</td>
+                            <td>Becario</td>
+                            <td>Desarrollador en power plataform de Microsoft</td>
+                            <td>2023</td>
+                        </tr>
+                        <tr>
+                            <td>Consultoría [Ecuador]</td>
+                            <td>Consultor</td>
+                            <td>Consultor externo en temas de energía, medio ambiente y tecnología</td>
+                            <td>2023</td>
+                        </tr>
+                        <tr>
+                            <td>Empresa Eléctrica Regional Norte EMELNORTE [Ecuador]</td>
+                            <td>Director de Asesoría Jurídica</td>
+                            <td>Ordenar, dirigir y liderar las actividades de asesoramiento jurídico de la institución</td>
+                            <td>2021-2022</td>
+                        </tr>
+                        <tr>
+                            <td>Agencia Metropolitana de Control [Ecuador]</td>
+                            <td>Ejecutor Metropolitano</td>
+                            <td>Ordenar, dirigir y liderar las actividades de ejecución de las decisiones jurídico administrativas</td>
+                            <td>2021</td>
+                        </tr>
+                        <tr>
+                            <td>Ministerio del Ambiente, Agua y Transición Energética [Ecuador]</td>
+                            <td>Director de Patrocinio Judicial</td>
+                            <td>Ordenar, dirigir y liderar las actividades de defensa institucional</td>
+                            <td>2020-2021</td>
+                        </tr>
+                        <tr>
+                            <td>Empresa Electrica Provincial de Galápagos [Ecuador]</td>
+                            <td>Director Jurídico</td>
+                            <td>Ordenar, dirigir y liderar las actividades de asesoramiento jurídico de la institución</td>
+                            <td>2018-2020</td>
+                        </tr>
+                        <tr>
+                            <td>Dirección del Parque Nacional Galápagos [Ecuador]</td>
+                            <td>Especialista y Director Jurídico</td>
+                            <td>Ordenar, dirigir y liderar las actividades de asesoramiento jurídico de la institución</td>
+                            <td>2014-2018</td>
+                        </tr>
+                        <tr>
+                            <td>Ministerio de Relaciones Exteriores y Movilidad Humana [Ecuador]</td>
+                            <td>Analista Jurídico</td>
+                            <td>Emisión de criterios jurídicos</td>
+                            <td>2013-2014</td>
+                        </tr>
+                        <tr>
+                            <td>Servicio de Capacitación Profesional[Ecuador]</td>
+                            <td>Analista Jurídico</td>
+                            <td>Emisión de criterios jurídicos</td>
+                            <td>2011-2013</td>
+                        </tr> 
+                    </tbody>
+                </table>
+            </section>
+        
+            <footer>
+                <ul>
+                    <li><a href="index.html">Regresar a datos personales</a></li>
+                </ul>
+            </footer>
+        
+        </main>
+    </body>
+</html>
